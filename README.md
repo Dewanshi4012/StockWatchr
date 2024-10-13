@@ -11,11 +11,12 @@ StockWatchr is an Android app for real-time stock market data, featuring live up
 - **Multi-Screen Support:** Responsive UI that works across different screen sizes.
 - **Separation of Concerns:** Follows MVVM architecture for efficient data management and maintainability.
 
+
 ## Screenshots 📷
-(Include some screenshots of your app here)
-![alt text](https://drive.google.com/drive/u/0/home)
+![MobileApp](https://github.com/user-attachments/assets/34d176db-0ecf-4374-bfce-4b3ed800f3d0)
 
 ## Tech Stack 🛠️
+
 - **Languages:** Kotlin, XML
 - **Architectural Pattern:** MVVM (Model-View-ViewModel)
 - **Libraries:**
