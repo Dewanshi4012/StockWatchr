@@ -43,16 +43,16 @@ To get started with StockWatchr on your local machine, follow these steps:
 - Run the app on an emulator or a physical Android device.
 
 ## How the App Works 🔧
-### Fetching Data
+### 1.Fetching Data
 - StockWatchr uses Retrofit to make API calls to the Financial Modeling Prep API. The data is then stored locally using Room Database, which enables users to view cached stock information when offline.
-### Data Display
+### 2.Data Display
 - The stock data, including the company's symbol, price, change, and other financial details, is displayed in a RecyclerView, which provides an efficient and smooth scrolling experience for long lists.
-### Search Functionality
+### 3.Search Functionality
 - Users can search for a stock symbol through the SearchView. Upon entering a valid stock symbol, the app will filter the list and display relevant results. Tapping on a stock item navigates the user to a detailed view of the selected stock.
-### Error Handling
+### 4.Error Handling
 - The app handles various error scenarios gracefully, displaying user-friendly messages if there is no internet connection or if the API request fails. Additionally, searching for a non-existent stock symbol will result in a clear message indicating that no such stock was found.
-### Offline Functionality
+### 5.Offline Functionality
 - Cached data is displayed if the user is offline. Once the user reconnects to the internet, LiveData automatically updates the UI with the latest stock information from the API.
-### Coroutines
+### 6.Coroutines
 - Kotlin Coroutines are used to manage background tasks, such as fetching data from the API, without blocking the UI thread. This ensures that the app remains responsive even during heavy data processing.
   
