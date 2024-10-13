@@ -28,7 +28,7 @@ StockWatchr is an Android app for real-time stock market data, featuring live up
   - RecyclerView (for displaying stock lists)
 
 ## API 💻
-StockWatchr pulls real-time data from the _Financial Modeling Prep_ API, which provides up-to-date stock information for companies listed on the NASDAQ exchange. The API delivers detailed stock statistics and supports robust querying to retrieve multiple stock metrics at once.
+StockWatchr pulls real-time data from the _Financial Modeling Prep_ API , which provides up-to-date stock information for companies listed on the NASDAQ exchange. The API delivers detailed stock statistics and supports robust querying to retrieve multiple stock metrics at once.
 
 ## Installation and Setup ⚙️
 To get started with StockWatchr on your local machine, follow these steps:
@@ -45,6 +45,9 @@ To get started with StockWatchr on your local machine, follow these steps:
 ## How the App Works 🔧
 ### 1.Fetching Data
 - StockWatchr uses Retrofit to make API calls to the Financial Modeling Prep API. The data is then stored locally using Room Database, which enables users to view cached stock information when offline.
+  ```bash
+  https://financialmodelingprep.com/api/v3/symbol/NASDAQ?apikey=q43cnDfgGp3rAocOGjsTW6sD6oEeQx3a
+  ```
 ### 2.Data Display
 - The stock data, including the company's symbol, price, change, and other financial details, is displayed in a RecyclerView, which provides an efficient and smooth scrolling experience for long lists.
 ### 3.Search Functionality
