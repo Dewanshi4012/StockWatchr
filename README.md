@@ -13,7 +13,7 @@ StockWatchr is an Android app for real-time stock market data, featuring live up
 
 
 ## Screenshots 📷
-![MobileApp](https://github.com/user-attachments/assets/34d176db-0ecf-4374-bfce-4b3ed800f3d0)
+<img src="https://github.com/user-attachments/assets/34d176db-0ecf-4374-bfce-4b3ed800f3d0" alt="Description"  width="800" />
 
 ## Tech Stack 🛠️
 
@@ -33,11 +33,13 @@ StockWatchr pulls real-time data from the _Financial Modeling Prep_ API, which p
 ## Installation and Setup ⚙️
 To get started with StockWatchr on your local machine, follow these steps:
 - **Clone the repository:**
-  git clone https://github.com/yourusername/StockWatchr.git
+  
+  ```bash
+  git clone (https://github.com/Dewanshi4012/StockWatchr.git)
+  ```
 - Open the project in Android Studio.
 - Sync the project with Gradle files to ensure that all dependencies are correctly installed.
-- Configure the API key:
-buildConfigField("String", "API_KEY", "\"your_api_key_here\"")
+- keep your device connected to internet.
 - Run the app on an emulator or a physical Android device.
 
 ## How the App Works 🔧
